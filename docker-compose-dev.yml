@@ -45,12 +45,12 @@ services:
       - my_bridge_network
 
   app1:
-    image: masungil/devops:latest
+    image: leekyungseob1993/devops:0.0.1
     networks:
       - my_bridge_network
 
   app2:
-    image: masungil/devops:latest
+    image: leekyungseob1993/devops:0.0.1
     networks:
       - my_bridge_network
 
